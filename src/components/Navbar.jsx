@@ -13,27 +13,57 @@ const Navbar = () => {
       <div>{/* <img src={Logo} alt="Logo" style={{ width: "50px" }} /> */}</div>
       <ul className="hidden md:flex">
         <li>
-          <Link activeClass="active" to="home" smooth={true} duration={1000}>
+          <Link
+            activeClass="active"
+            to="home"
+            smooth={true}
+            duration={1000}
+            className="hover:text-orange-500"
+          >
             Home
           </Link>
         </li>
         <li>
-          <Link activeClass="active" to="about" smooth={true} duration={1000}>
+          <Link
+            activeClass="active"
+            to="about"
+            smooth={true}
+            duration={1000}
+            className="hover:text-orange-500"
+          >
             About
           </Link>
         </li>
         <li>
-          <Link activeClass="active" to="skills" smooth={true} duration={1000}>
+          <Link
+            activeClass="active"
+            to="skills"
+            smooth={true}
+            duration={1000}
+            className="hover:text-orange-500"
+          >
             Skills
           </Link>
         </li>
         <li>
-          <Link activeClass="active" to="work" smooth={true} duration={1000}>
+          <Link
+            activeClass="active"
+            to="work"
+            smooth={true}
+            duration={1000}
+            className="hover:text-orange-500"
+          >
             Work
           </Link>
         </li>
         <li>
-          <Link activeClass="active" to="contact" smooth={true} duration={1000}>
+          <Link
+            activeClass="active"
+            to="contact"
+            smooth={true}
+            duration={1000}
+            className="hover:text-orange-500"
+          >
             Contact
           </Link>
         </li>
