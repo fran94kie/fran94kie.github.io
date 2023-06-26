@@ -12,7 +12,7 @@ const Contact = () => {
         method="POST"
       >
         <div className="pb-8 ">
-          <p className="text-4xl font-bold inline border-b-4 border-pink-600 text-gray-300">
+          <p className="text-4xl font-bold inline border-b-4 border-orange-500 text-gray-300">
             Contact
           </p>
           <p className="text-gray-300 py-4">
@@ -36,7 +36,7 @@ const Contact = () => {
           name="message"
           rows="10"
         ></textarea>
-        <button className="text-white border-2 hover:bg-pink-600 hover:border-pink-600 p-4 py-3 my-8 mx-auto flex items-center">
+        <button className="text-white border-2 hover:bg-orange-500 hover:border-orange-500 p-4 py-3 my-8 mx-auto flex items-center">
           Let's Collaborate
         </button>
       </form>

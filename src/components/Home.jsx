@@ -10,10 +10,10 @@ const Home = () => {
         <h1 className=" text-4xl sm:text-7xl font-bold text-white">
           Frankie Chu
         </h1>
-        <h2 className="text-4xl sm:text-7xl font-bold text-slate-400">
+        <h2 className="text-4xl sm:text-7xl font-bold text-orange-500">
           I'm a Full Stack Developer.
         </h2>
-        <p className="text-slate-400 py-4 max-w-[700px]">
+        <p className="text-orange-200 py-4 max-w-[700px]">
           Experienced full stack developer with 5 years of experience developing
           web and mobile applications seeking challenging opportunities to
           contribute and grow professionally.
